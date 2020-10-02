@@ -1,0 +1,972 @@
+*
+{
+margin: 0;
+    padding: 0;
+box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+html{
+font-family: 'Montserrat', sans-serif;
+    list-style-type: none;
+}
+
+body{
+    margin: 0px;
+   
+}
+body > header > video{
+position: absolute;
+  top: 50%; 
+  left: 50%;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+  min-width: 100%; 
+  min-height: 126%; 
+  width: auto; 
+  height: auto;
+  z-index: -1000; 
+  overflow: hidden;
+
+}
+html, body {
+ 
+  overflow-x:hidden;
+}
+
+body > header{
+    background-color: #000000b0;
+}
+body > header > div{
+    width: 100%;
+    height: 100%;
+   
+    
+}
+
+body > header > div > img{
+  width: 20%;
+    text-align: center;
+    display: flex;
+  align-items: center;
+  justify-content: center;
+    margin-top: -10%;
+}
+body > header > div{
+      text-align: center;
+    display: flex;
+  align-items: center;
+  justify-content: center
+}
+
+body > header{
+    height: 113%;
+   
+}
+
+.naglowek{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+transition: 0.6px;
+    padding: 40px 230px;
+    
+    z-index: 1000;
+}
+body > header > section > a > img{
+    width:15%;
+    position: relative;
+  transition: 0.6px;
+    justify-content: center;
+    align-items: center;
+    visibility: hidden;
+    
+}
+body > header > section > ul li{
+   list-style-type: none;
+    position: relative;
+    transition: 0.6px;
+ 
+}
+body > header > section > ul li a {
+    position: relative;
+    margin: 0 15px;
+    text-decoration: none;
+    letter-spacing: 3px;
+   font-size: 16px;
+   transition: 0.6px;
+    color: white;
+    
+}
+body > header > section > ul{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+    align-items: center;
+   transition: 0.6px;
+    margin-right: 3%;
+}
+.sticky{
+   padding: 10px 230px;
+   background-color: white;
+    transition: 0.6px;
+       
+}
+.naglowek.sticky ul li a {
+    color:black;
+   
+}
+
+.naglowek.sticky a > img{
+ visibility: visible;
+}
+body > section > .skills {
+ width: 100%;
+   height: 100%;
+    margin-top: 100px;
+    display: flex;
+   
+    
+   
+    overflow-x: hidden
+}
+body > section > .aboutUs{
+    max-width: 1150px;
+    width: 100%;
+    height: 12%;
+   display: block;
+ 
+
+    
+}
+.linia{
+    float: left;
+    width: 4px;
+    height: 100px;
+    background: black;
+}
+body > section > div > h1{
+    margin: 20px;
+    font-size: 50px;
+    float: left;
+}
+body > header > ul{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: inline-flex;
+    margin-top: 20%
+        
+    
+}
+body > header > ul > a:nth-child(1) > li{
+    margin-right: 20px;
+}
+body>header > ul > a >  li img:hover{
+    transform: scale(1.2);
+    transition: 0.3s transform linear;
+    
+}
+body > section > div.aboutUs{
+   max-width: 1150px; 
+	margin: 0 auto !important; 
+	float: none !important; 
+}
+body > section > div.zdjecia{
+  position: relative;
+    width: 100%;
+    height: 100%;
+}
+body > section.skills > div.aboutUs > span.landscape{
+    position: absolute;
+}
+body > section.skills > div.aboutUs > h1{
+    position: absolute;
+}
+body > section > div.zdjecia{
+    max-width: 100%;
+   
+    width: 100%;
+    height: 100%;
+}
+
+body > section > div.zdjecia > ul{
+    display: inline-flex;
+    
+}
+
+
+body > section > div.zdjecia{
+   max-width: 1150px; 
+	margin: 0 auto !important; 
+	float: none !important; 
+}
+
+
+
+
+body > section > div.zdjecia > ul.gallery1 > li:nth-child(1) > img{
+    width: 97%;
+    height: 100%;
+}
+body > section > div.zdjecia > ul.gallery1 > li:nth-child(2) > img{
+    width: 100%;
+   
+    float: right;
+}
+body > section > div.zdjecia > ul.gallery2 > li:nth-child(1) > img{
+    width: 143%;
+    padding-top: 30px;
+}
+body > section > div.zdjecia > ul.gallery2 > li:nth-child(2) > img{
+   width: 85%;
+    padding-top: 30px;
+}
+body > section > div.zdjecia > ul.gallery2 > li:nth-child(2) > img{
+    float: right;
+}
+body > section > div.zdjecia > ul.gallery1 > li:nth-child(1) > h1{
+    position: absolute;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    padding: 10% 19% 0 19%;
+}
+body > section > div.zdjecia > ul.gallery1 > li:nth-child(2) > h1{
+    position: absolute;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+   padding: 10% 11% 0px 15%;
+}
+body > section > div.zdjecia > ul.gallery2 > li:nth-child(1) > h1{
+    position: absolute;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    padding: 15% 10% 0 11%;
+}
+body > section.skills > div.zdjecia > ul.gallery2 > li:nth-child(2) > h1{
+    padding: 17% 22% 0px 41%;
+}
+body > section > div.zdjecia > ul.gallery2 > li:nth-child(2) > h1{
+    position: absolute;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+   padding: 17% 22% 0px 35%;
+}
+
+body > section > div.zdjecia > ul.gallery1 > li:nth-child(1) > p{
+    position: absolute;
+    color: white;
+    font-size: 16px;
+    text-align: center;
+padding: 21% 48% 0 2%;
+  
+}
+
+
+body > section > div.zdjecia > ul.gallery1 > li:nth-child(2) > p{
+    position: absolute;
+    color: white;
+    font-size: 16px;
+    text-align: center;
+    padding: 21% 3% 0 2%;
+}
+body > section > div.zdjecia > ul.gallery2 > li:nth-child(1) > p{
+    position: absolute;
+    color: white;
+    font-size: 16px;
+    text-align: center;
+padding: 28% 66% 0 2%;
+   
+    
+}
+body > header > section > ul > li:nth-child(1) > a:hover{
+    color: gold;
+}
+body > header > section > ul > li:nth-child(2) > a:hover{
+    color: gold;
+}
+body > header > section > ul > li:nth-child(3) > a:hover{
+    color:gold;
+}
+body > header > section > ul > li:nth-child(4) > a:hover{
+    color: gold;
+}
+
+body > section > div.zdjecia > ul.gallery2 > li:nth-child(2) > p{
+    position: absolute;
+    color: white;
+    font-size: 16px;
+    text-align: center;
+  padding: 27% 5% 6% 5%;
+    max-width: 45%;
+    margin-left: 8%;
+}
+body > section > div.zdjecia > ul.gallery1 > li:nth-child(1) > p:hover{
+    opacity: 1;
+    transition: 0.6s;
+}
+body > section > div.zdjecia > ul.gallery1 > li:nth-child(1) > p{
+    opacity: 0;
+}
+body > section > div.zdjecia > ul.gallery1 > li:nth-child(2) > p{
+    opacity: 0;
+}
+body > section > div.zdjecia > ul.gallery1 > li:nth-child(2) > p:hover{
+    opacity: 1;
+    transition: 0.6s;
+}
+body > section > div.zdjecia > ul.gallery2 > li:nth-child(1) > p{
+    opacity: 0;
+    
+}
+body > section > div.zdjecia > ul.gallery2 > li:nth-child(1) > p:hover{
+    opacity: 1;
+    transition: 0.6s;
+}
+body > section > div.zdjecia > ul.gallery2 > li:nth-child(2) > p{
+    opacity: 0;
+}
+body > section > div.zdjecia > ul.gallery2 > li:nth-child(2) > p:hover{
+    opacity: 1;
+    transition: 0.6s;
+}
+@media only screen and (max-width: 1000px){
+    body > section.skills > div.zdjecia > ul.gallery1{
+        flex-direction: column;
+        display: block;
+        
+    }
+}
+@media only screen and (max-width: 1000px){
+body > section > div.zdjecia > ul.gallery1 > li:nth-child(1) > img {
+    width: 100%;
+    height: auto;
+        
+}
+}
+@media only screen and (max-width: 1000px){
+    body > section.skills > div.zdjecia > ul.gallery2{
+        flex-direction: column;
+    }
+}
+
+@media only screen and (max-width: 1000px){
+body > section > div.zdjecia > ul.gallery2 > li:nth-child(1) > img {
+    width: 100%;
+    padding-top: 30px;
+    
+    }}
+@media only screen and (max-width: 1000px){
+body > section.skills > div.zdjecia > ul.gallery2 > li:nth-child(2) > img{
+    width: 100%;
+    float: none;
+    }}
+
+body > section.place{
+    width: 100%;
+    height: 100%;
+}
+
+body > section.place::before{
+    height: 13.4rem;
+    background: url(img/wave-large-reversed.png);
+    background-size: cover;
+
+}
+
+body > section.skills > div.zdjecia > ul.gallery1 > li:nth-child(1):hover{
+    background-size: 150%;
+    background-position: center;
+}
+body > section > div.zdjecia > ul.gallery2 > li:nth-child(1) > img {
+     background-size: 100%;
+}
+body > section.skills > div.aboutUs > span.landscape{
+    font-size: 150px;
+    color: rgba(0,0,0,0.1);
+   float: left;
+    margin-top: -400px;
+    position: absolute;
+  
+
+}
+
+
+
+body > section.skills > div.aboutUs > span.linia{
+    position: absolute;
+    margin-right: 30%;
+}
+
+body > section.skills > div.aboutUs > h1{
+margin-right: 5%;
+}
+body > header > section > ul > li:nth-child(5) > a > img{
+    width: 40%;
+    align-items: center;
+}
+body > header > section > ul > li:nth-child(6) > a > img{
+    width: 40%;
+  align-items: center;
+        
+}
+body > header > section > ul > li:nth-child(5) > a{
+    margin: 0 0 0 20;
+}
+body > header > section > ul > li:nth-child(6) > a{
+    margin: 0 0 0 20;
+}
+.naglowek.sticky  ul > li:nth-child(5) > a > img{
+   -webkit-filter: brightness(0.1);
+-moz-filter: brightness(0.1);
+-o-filter: brightness(0.1);
+-ms-filter: brightness(0.1);
+filter: brightness(0.1);
+}
+.naglowek.sticky  ul > li:nth-child(6) > a > img{
+  -webkit-filter: brightness(0.1);
+-moz-filter: brightness(0.1);
+-o-filter: brightness(0.1);
+-ms-filter: brightness(0.1);
+filter: brightness(0.1);
+}body > section.place{
+ display: contents;
+    margin-top: 200px;
+}
+body > section.place > div{
+    width: 100%;
+    height: 100%;
+}
+body > section.place > span{
+    position: absolute;
+    font-size: 150px;
+    color: rgba(0,0,0,0.1);
+}
+body > section.place > div{
+max-width: 1150px;
+	margin: 0 auto !important; 
+	float: none !important; 
+}
+body > section.skills > div.zdjecia > ul.gallery1 > li:nth-child(2) > p{
+    height: 35%;
+}
+body > section.skills > div.zdjecia > ul.gallery2 > li:nth-child(2) > p{
+    padding: 42% 5% 7% 5%;
+    max-width: 72%;
+    margin-left: 12%;
+}
+body > section.skills > div.zdjecia > ul.gallery2 > li:nth-child(1) > p{
+    padding: 36% 72% 0 4%;
+}
+}
+
+body > span.landscape{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    font-size: 150px;
+    color: rgba(0,0,0,0.1);
+    max-width: 50%;
+}
+body > section.place{
+    position: absolute;
+}
+
+body > section.place > div > span.O.NAS{
+    font-size: 50px;
+    position: absolute;
+    margin-left: 20px;
+   
+ margin-top: -83px;
+}
+body > section.skills > div.zdjecia{
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+body > section.place > div{
+    padding-top: 180px;
+}
+body > section.place > div > div > div.opis{
+    float: left;
+    text-align: left;
+
+height: 20%;
+    font-size: 16px;
+    float: left;
+    text-align: left;
+    width: 50%;
+    margin-top: 200px;
+    font-size: 17px;
+    padding: 40;
+    background: #f6f6f6;
+    letter-spacing: 1;
+
+}
+body > section.place > div > div > div.slider{
+     float: right;
+   height: 50%;
+     width: 50%;
+
+}
+
+#carousel-example-generic{
+    width: 50%;
+    float: right;
+    margin-top: 200px;
+    height: 295px;
+        
+}
+body > section.place > div > div{
+    display: inline-flex;
+}
+body > div{
+        position: fixed;
+    height: 40px;
+    /* background: #993300; */
+    bottom: 0;
+    width: 100%;
+}
+body > header > section > ul > li:nth-child(1) > a{
+    text-decoration: none;
+}
+body > header > section > ul > li:nth-child(2) > a{
+    text-decoration: none;
+}
+body > header > section > ul > li:nth-child(3) > a{
+    text-decoration: none;
+}
+body > header > section > ul > li:nth-child(4) > a{
+    text-decoration: none;
+}
+@media only screen and (max-width: 1000px){
+body > section.skills > div.zdjecia{
+    display: contents;
+    }}
+@media only screen and (max-width: 1000px){
+    body > section.skills > div.zdjecia > ul.gallery2 > li:nth-child(1) > img{
+        height: 1000px;
+    }}
+
+@media only screen and (max-width: 1000px){
+    body > section.skills > div.zdjecia > ul.gallery1 > li:nth-child(2){
+        padding-top: 30px;
+    }}
+body > section.Kontakt > span{
+   position: relative;
+    font-size: 150px;
+    color: rgba(0,0,0,0.1);
+}
+body > section.Kontakt > div{
+    width: 100%;
+    height: 100%;
+    max-width: 1150px;
+	margin: 0 auto !important; 
+	float: none !important; 
+}
+body > section.Kontakt > form{
+   
+    
+    text-align: center;
+    opacity: 1;
+    top: 0px;
+    justify-content: center;
+    width: 100%;
+}
+.contact .contactForm {
+  
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 30px auto;
+    position: relative;
+    top: 100px;
+    opacity: 0;
+    transition: .5s;
+}
+.contact .contactForm .name, .contact .contactForm .email, .contact .contactForm .content, .contact .contactForm .checkbox, .contact .contactForm .submit {
+    width: 100%;
+    margin: 10px 0;
+}
+textarea {
+    resize: none;
+    padding-top: 10px;
+    height: 140px;
+}
+.inputName, .inputMail, .submit, textarea {
+    width: 100%;
+    border: none;
+    color: white;
+    background-color: #0000002e;
+    height: 40px;
+    padding-left: 10px;
+    font-size: 16px;
+}
+body > section.aboutMe > form > label.checkbox{
+    color: white;
+}
+.submit {
+    text-transform: uppercase;
+    -webkit-border-radius: 0px;
+    -webkit-appearance: none;
+    border-radius: 0px;
+    cursor: pointer;
+}
+body > section.kontakt > form > label.name > input{
+    max-width: 1150px;
+}
+body > section.kontakt > form > label.email > input{
+    max-width: 1150px;
+}
+body > section.kontakt > form > label.content > textarea{
+    max-width: 1150px;
+}
+body > section.kontakt > form > input{
+    max-width: 1150px;
+}
+body > section.kontakt > form > label.content > textarea{
+    height: 200px;
+}
+body > section.Kontakt > div > form > label.name{
+    margin: 0;
+}
+label {
+
+margin-bottom: 0;
+}
+.contact .contactForm .name, .contact .contactForm .email, .contact .contactForm .content, .contact .contactForm .checkbox, .contact .contactForm .submit {
+    width: 100%;
+    margin: 0;
+}
+#content{
+    height: 20%;
+}
+body > section.Kontakt > div > form > label.checkbox{
+    text-align: center;
+}
+body > section.Kontakt > div > h1{
+  padding-bottom: 100px;
+}
+footer{
+   width: 100%;
+    height: auto;
+
+	margin: 0 auto !important; 
+    float: none !important; }
+body > footer{
+    color: white;
+    background: #000000bd;
+}
+body > header > div > ul.icons{
+    position: absolute;
+    display: inline-flex;
+    margin-top: 600px;
+    
+ 
+    
+}
+body > header > div > ul > li:nth-child(2){
+    margin-left: 20px;
+}
+body > header > div > ul > li:hover{
+    transform: scale(1.2);
+    transition: 0.3s transform linear;
+    
+}
+body > header > section > ul > li:nth-child(5) > a > img:hover{
+      transform: scale(1.2);
+    transition: 0.3s transform linear;
+    
+}
+body > header > section > ul > li:nth-child(6) > a > img:hover{
+      transform: scale(1.2);
+    transition: 0.3s transform linear;
+    
+}
+body > section.skills > span{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    font-size: 150px;
+    color: rgba(0,0,0,0.1);
+    max-width: 100%;
+     font-family: 'Montserrat', sans-serif;
+    display: contents;
+}
+body > section.skills{
+    padding-top: 100px;
+    padding-bottom: 600px;
+  background-image: url(img/bgf.png);
+    background-size: 100%;
+    background-attachment: fixed;
+    height: 3200px;
+}
+body > section.skills > div.aboutUs > span{
+    background: white;
+    
+}
+body > section.skills > div.aboutUs > h1{
+     font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+body > section.skills > span{
+    color: rgb(255 255 255 / 23%);
+}
+body > section.skills > p{
+    color: white;
+
+    float: left;
+    text-align: left;
+;
+     max-width: 1150px; 
+	margin: 0 auto !important; 
+	float: none !important; 
+     font-family: 'Montserrat', sans-serif;
+    width: 60%;
+    text-align: center;
+    height: 300px;
+    font-size: 16px;
+        
+}
+body > section.skills > div.zdjecia > ul.gallery3{
+    width: 100%;
+}
+body > section.skills > div.zdjecia > ul.gallery3 > li > img{
+    width: 70%;
+}
+body > section.skills > div.zdjecia > ul.gallery2 > li:nth-child(2) > img{
+    height: 99%;
+}
+body > section.skills > div.zdjecia > ul.gallery3 > li:nth-child(1) > img{
+    width: 96%;
+    
+}
+body > section.skills > div.zdjecia > ul.gallery3 > li:nth-child(2) > img{
+    width: 118%;
+}
+body > section.skills > div.zdjecia > ul.gallery2{
+    margin-top: -15px;
+}
+body > section > div.zdjecia > ul.gallery3 > li:nth-child(1) > h1 {
+    position: absolute;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+   padding: 12% 22% 0px 27%;
+}
+body > section > div.zdjecia > ul.gallery3 > li:nth-child(2) > h1 {
+    position: absolute;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+   padding: 12% 22% 0px 11%;
+}
+body > section > div.zdjecia > ul.gallery3 > li:nth-child(2) > p {
+       position: absolute;
+    color: white;
+    font-size: 16px;
+    text-align: center;
+   padding: 240 0 0;
+}
+body > section > div.zdjecia > ul.gallery3 > li:nth-child(1) > p {
+       position: absolute;
+    color: white;
+    font-size: 16px;
+    text-align: center;
+    width: 67%;
+  padding: 290 0 0 0;
+}
+
+
+body > section > div.zdjecia > ul.gallery3 > li:nth-child(2) > p{
+    opacity: 0;
+    
+}
+body > section > div.zdjecia > ul.gallery3 > li:nth-child(2) > p:hover{
+    opacity: 1;
+    transition: 0.6s;
+}
+body > section > div.zdjecia > ul.gallery3 > li:nth-child(1) > p{
+    opacity: 0;
+    
+}
+body > section > div.zdjecia > ul.gallery3 > li:nth-child(1) > p:hover{
+    opacity: 1;
+    transition: 0.6s;
+}
+
+#kontakt{
+ background-image: url(img/bgf.png);
+    background-size: 100%;
+    background-attachment: fixed;
+    
+}
+#kontakt > div > h1{
+    color: white;
+}
+#kontakt > div > span{
+    background: white;
+}
+#kontakt > span{
+color:rgb(255 255 255 / 23%);
+}
+#kontakt > div > form > label.checkbox{
+    color: white;
+}
+body > section.skills > h1{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 50;
+      max-width: 1150px; 
+	margin: 0 auto !important; 
+	float: none !important; 
+    
+}
+body > section.skills > div.zdjecia{
+    padding-top: 200px;
+}
+body > section.skills > span.linia{
+    float: left;
+    width: 4px;
+    height: 100px;
+    background: black;
+}
+body > section.skills > h1{
+    text-align: center;
+}
+body > section.skills > section{
+    width: 100%;
+    height: 18%;
+    max-width: 1150px; 
+	margin: 0 auto !important; 
+	float: none !important; 
+    position: relative;
+}
+body > section.skills > section > div:nth-child(1){
+    width: 25%;
+      display: inline-flex;
+    height: 57%;
+     border-radius: 50%;
+    background-image: url(img/c49.png);
+    border: 4px solid #bd081c;
+    background-position: center;
+    margin-top: 100px;
+    
+}
+body > section.skills > section > div:nth-child(2){
+    width: 25%;
+      display: inline-flex;
+    height: 57%;
+     border-radius: 50%;
+        background-image: url(img/c49.png);
+            border: 4px solid #bd081c;
+    background-position: center;
+    
+    margin-top: 100px;
+    
+}
+body > section.skills > section > div:nth-child(3){
+    width: 25%;
+    height: 57%;
+        display: inline-flex;
+        background-image: url(img/c49.png);
+    background-position: center;
+     border-radius: 50%;
+    border-bottom-width: 2px;
+border: 4px solid #bd081c;
+    margin-top: 100px;
+    
+}
+body > section.skills > section{
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: space-between;
+
+}
+body > section.skills > section.tatuazysci > div > p{
+    position: absolute;
+    width: 23%;
+    text-align: center;
+   margin-top: 315px;
+    color: white;
+}
+body > section.skills > section.opis > div > p{
+     position: absolute;
+    width: 23%;
+    text-align: center;
+    margin-top: 315px;
+    color: white; 
+}
+body > section.skills > section > div > hr{
+   margin-top: 315px;
+    background-color: red;
+    width: 50%;
+    justify-content: center;
+    align-items: red;
+    display: flex;
+    background: red;
+    margin: 300 auto 0;
+    align-items: center;
+}
+body > footer > div > ul{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    
+        
+}
+body > footer > div > p{
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+}
+body > footer > div > hr{
+ width: 5%;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+     max-width: 1150px; 
+	margin: 0 auto !important; 
+	float: none !important; 
+        padding: 5
+
+}
+body > footer > div > ul > li:nth-child(2) > img{
+    margin-left: 20px;
+}
+
+body > footer > div > ul > li > img:hover{
+    transform: scale(1.2);
+    transition: 0.3s transform linear;
+}
+body > footer > div{
+    height: 130px;
+}
+body > footer > div > ul > li:nth-child(1){
+    margin-top: 10px;
+}
+body > footer > div > ul > li:nth-child(2){
+    margin-top: 10px;
+}
+body > footer > iframe{
+    width: 100%;
+}
+body > section.skills > div.zdjecia > h1{
+    color: white;
+}
+body > section.skills > div.zdjecia > span{
+    background: white;
+    margin-bottom: 50px
+}
