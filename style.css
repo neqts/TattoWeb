@@ -268,7 +268,7 @@ body > section > div.zdjecia > ul.gallery1 > li:nth-child(1) > p{
     color: white;
     font-size: 16px;
     text-align: center;
-padding: 21% 48% 0 2%;
+padding: 37% 5% 0 2%;
   
 }
 
@@ -278,14 +278,14 @@ body > section > div.zdjecia > ul.gallery1 > li:nth-child(2) > p{
     color: white;
     font-size: 16px;
     text-align: center;
-    padding: 21% 3% 0 2%;
+    padding: 54% 3% 0 2%;
 }
 body > section > div.zdjecia > ul.gallery2 > li:nth-child(1) > p{
     position: absolute;
     color: white;
     font-size: 16px;
     text-align: center;
-padding: 28% 66% 0 2%;
+
    
     
 }
@@ -332,6 +332,7 @@ body > section > div.zdjecia > ul.gallery2 > li:nth-child(1) > p{
 body > section > div.zdjecia > ul.gallery2 > li:nth-child(1) > p:hover{
     opacity: 1;
     transition: 0.6s;
+    
 }
 body > section > div.zdjecia > ul.gallery2 > li:nth-child(2) > p{
     opacity: 0;
@@ -461,13 +462,19 @@ body > section.skills > div.zdjecia > ul.gallery1 > li:nth-child(2) > p{
     height: 35%;
 }
 body > section.skills > div.zdjecia > ul.gallery2 > li:nth-child(2) > p{
-    padding: 42% 5% 7% 5%;
+padding: 41% 5% 7% 28%;
     max-width: 72%;
     margin-left: 12%;
 }
 body > section.skills > div.zdjecia > ul.gallery2 > li:nth-child(1) > p{
-    padding: 36% 72% 0 4%;
+width: 30%;
+    height: 25%;
+
 }
+body > section.skills > div.zdjecia > ul.gallery2 > li:nth-child(1) > p{
+    width: 100%;
+    margin-top: 350px;
+    margin-left: 45px;;
 }
 
 body > span.landscape{
@@ -525,6 +532,9 @@ body > section.place > div > div > div.slider{
     margin-top: 200px;
     height: 295px;
         
+}
+#kontakt{
+    margin-top: 100px;
 }
 body > section.place > div > div{
     display: inline-flex;
@@ -785,6 +795,7 @@ body > section > div.zdjecia > ul.gallery3 > li:nth-child(1) > p {
     text-align: center;
     width: 67%;
   padding: 290 0 0 0;
+    margin-left: 15%;
 }
 
 
@@ -974,7 +985,7 @@ body > section.skills > div.zdjecia > span{
 .button {
   display: inline-block;
   border-radius: 4px;
-  background-color: red;
+  background-color: #ff000066;
   border: none;
   color: #FFFFFF;
   text-align: center;
@@ -1010,4 +1021,46 @@ body > section.skills > section > div:nth-child(1) > p > button:hover{
 body > section.skills > section > div:nth-child(1) > p > .button:hover > span:after {
   opacity: 1;
   right: 0;
+}
+body > section.place > div > div{
+    margin-top: -100px;
+}
+#carousel-example-generic > a.left.carousel-control{
+    height: 125%;
+}
+#carousel-example-generic > a.right.carousel-control{
+    height: 125%;
+}
+#carousel-example-generic > ol{
+    display: none;
+}
+body > section.skills > div.zdjecia > ul.gallery2 > li:nth-child(2):hover{
+
+filter: brightness(0.6);
+     transition: 0.5s;
+}
+body > section.skills > div.zdjecia > ul.gallery2 > li:nth-child(1):hover{
+
+filter: brightness(0.6);
+     transition: 0.5s;
+}
+body > section.skills > div.zdjecia > ul.gallery1 > li:nth-child(2):hover{
+
+filter: brightness(0.6);
+     transition: 0.5s;
+}
+body > section.skills > div.zdjecia > ul.gallery1 > li:nth-child(1):hover{
+
+filter: brightness(0.6);
+     transition: 0.5s;
+}
+body > section.skills > div.zdjecia > ul.gallery3 > li:nth-child(2):hover{
+
+filter: brightness(0.6);
+     transition: 0.5s;
+}
+body > section.skills > div.zdjecia > ul.gallery3 > li:nth-child(1):hover{
+
+filter: brightness(0.6);
+    transition: 0.5s;
 }
